@@ -70,12 +70,39 @@
 /* Contact Section */
 .contact {
     width: 28%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 0, 0, 0);
     margin: 20px auto 0;
     padding-top: 20px;
+    margin-top: 100px;
     /* text-align: center; */
 }
+.contact a{
+    /* height: 50px;
+    width: 50px;  */
+    /* border: 3px solid white;
+    border-radius: 50%; */
+    margin-left: 20px;
+    padding: 20px;
+    Color: red;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline;
+    
+}
 
+.contact .a :hover{
+    background-color: red;
+    /* color: black; */
+    cursor: pointer;
+
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    /* margin-left: 30px; */
+    padding: 20px;
+    /* color: red; */
+  
+   
+}
 .contact ul {
     font-size: 1.2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
