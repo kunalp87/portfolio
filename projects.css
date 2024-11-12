@@ -77,7 +77,35 @@
     font-weight: 700;
     line-height: 2;
 }
-
+.bank{
+    height:71%;
+    width:70%;
+    background-color: rgb(29, 29, 29);
+    position: fixed;
+    top: 120px;
+    left: 230px;
+    backdrop-filter: blur(9px);
+    display: none;
+    border-radius: 10px;
+    padding: 30px;
+    transition: all 2s ease-in-out;
+    h1{
+        font-size: 30px;
+        text-align: start;
+        line-height: 1.5;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p{
+        font-size: 20px;
+        text-align: start;
+        line-height: 2;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    }
+    a{
+        font-size: 19px;
+        color: blue;
+    }
+}
 /* Responsive styling */
 @media (max-width: 768px) {
     .nav {

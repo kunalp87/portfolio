@@ -112,7 +112,30 @@
     width: 0;
     animation: typing 3s steps(30) 1s infinite;
 }
-
+/* CSS */
+/* CSS */
+/* CSS */
+/* @keyframes typing {
+    0% {
+      width: 0;
+      opacity: 0;
+    }
+    100% {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+  
+#label {
+    display: inline;              /* Keep the text inline */
+    /* white-space: nowrap;           Prevents text from wrapping to the next line */
+    /* overflow: hidden;              Hides the text that hasn't been revealed yet */
+    /* width: 0;                      Initially hides the text */
+    /* animation: typing 3s steps(30) infinite ; Apply animation */
+    /* font-family: 'Courier New', monospace;  Monospace font looks more like a typewriter */
+  /* } */ 
+  
+  
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .nav h1 {
